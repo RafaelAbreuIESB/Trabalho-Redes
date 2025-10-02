@@ -30,7 +30,7 @@
                 type: 'bar',
                 data: { labels: [], datasets: [] },
                 options: {
-                    scales: { y: { beginAtZero: true, stacked: true }, x: { stacked: true } },
+                    scales: { y: { beginAtZero: true } },
                     onClick: (event, elements) => {
                         if (elements.length > 0) {
                             const clientIndex = elements[0].index;
